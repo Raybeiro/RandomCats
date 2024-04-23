@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    background: contain
+}
+.page {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 24px;
+}
+/* javascript */
+.cats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.random_cats {
+    width: 40%;
+}
+img {
+    max-width: 700px;
+    max-height: 100%;
+}
